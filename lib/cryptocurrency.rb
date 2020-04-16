@@ -14,8 +14,7 @@ def crypto_scrapper
 		   crypto_arr << crypto_hash
 		end
 	end
-	#puts crypto_arr.size
 	return crypto_arr
 end
 
-crypto_scrapper
+#puts crypto_scrapper

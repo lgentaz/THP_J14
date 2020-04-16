@@ -28,7 +28,7 @@ describe "get a list of towns and respective townhall emails" do
   end
 
   it "verify that the method returns an email match for argenteuil" do
-    expect(get_townhall_email(get_townhall_urls)[5]).to include(/@ville-argenteuil.fr/)
+    expect(get_townhall_email(get_townhall_urls)[5].values).to include(/@ville-argenteuil.fr/)
   end
 end
 

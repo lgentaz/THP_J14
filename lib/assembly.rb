@@ -22,9 +22,7 @@ def deputy_mailto(multi_url)
 		mailto = {"first name" => full_name[1], "last name" => full_name[2], "email" => e_mail}
 		directory << mailto
 	end
-#	puts directory.size
 	return directory
 end
 
-
-puts deputy_mailto(deputy_url)
+# puts deputy_mailto(deputy_url)

@@ -12,7 +12,6 @@ def get_townhall_email(townhall_url)
 		mailto = {town => e_mail}
 		all_townhall_emails << mailto
 	end
-#	puts all_townhall_emails.size
 	return all_townhall_emails
 end
 
@@ -27,5 +26,5 @@ def get_townhall_urls
 	return directory
 end
 
-get_townhall_email(get_townhall_urls)
+# puts get_townhall_email(get_townhall_urls)
 
