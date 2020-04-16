@@ -12,6 +12,8 @@ def deputy_url
 	return all_deputy_urls
 end
 
+puts deputy_url
+
 def deputy_mailto(multi_url)
 	directory = []
 	multi_url.each do |url|
@@ -25,4 +27,4 @@ def deputy_mailto(multi_url)
 	return directory
 end
 
-# puts deputy_mailto(deputy_url)
+puts deputy_mailto(deputy_url)

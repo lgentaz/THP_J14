@@ -17,4 +17,4 @@ def crypto_scrapper
 	return crypto_arr
 end
 
-#puts crypto_scrapper
+puts crypto_scrapper

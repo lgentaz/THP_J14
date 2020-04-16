@@ -28,7 +28,7 @@ describe "get a list of assembly's deputies and their respective emails" do
   end
 
   it "verify one of the contained hash keys is last name " do
-    expect(get_townhall_email(get_townhall_urls)[5].keys).to include("last name")
+    expect(deputy_mailto(deputy_url)[5].keys).to include("last name")
   end
 end
 

@@ -26,5 +26,6 @@ def get_townhall_urls
 	return directory
 end
 
-# puts get_townhall_email(get_townhall_urls)
+puts get_townhall_urls
+puts get_townhall_email(get_townhall_urls)
 
